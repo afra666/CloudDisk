@@ -1,0 +1,6 @@
+数据库名：NetDisk
+表名：tb_user
+字段：
+id int 255
+username varchar 255
+password int 255
