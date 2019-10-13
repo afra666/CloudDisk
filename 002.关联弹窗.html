@@ -1,0 +1,45 @@
+<!--注意js引入顺序-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+
+</head>
+<body>
+<div class="container outSide">
+    <div class="row">
+        <div class="col-md-3 col-md-offset-1">
+            <input type="button"
+                   class="btn btn-primary" value="登录/注册"  data-toggle="modal" data-target=".abc">
+        </div>
+    </div>
+</div>
+
+
+
+<div class="modal fade abc" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                <p>One fine body&hellip;</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+
+</body>
+</html>
