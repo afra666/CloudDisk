@@ -1,0 +1,6 @@
+<form action="">
+                    用户名：
+                    <input type="text" class="form-control">
+                    密码：
+                    <input type="password" class="form-control">
+                </form>
