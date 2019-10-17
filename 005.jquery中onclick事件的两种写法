@@ -1,0 +1,24 @@
+
+<!--写法2-->
+<input type="text" id="myTxt">
+<script>
+
+       document.getElementById("myTxt").onclick=()=>{
+           console.log("123");
+       }
+
+</script>
+
+
+
+
+
+
+<!--写法3-->
+<input type="text" id="myTxt">
+<script>
+
+       let t1=document.getElementById("myTxt");
+       t1.onclick=()=>{t1.placeholder="123"}
+
+</script>
