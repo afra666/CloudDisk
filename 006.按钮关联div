@@ -1,0 +1,5 @@
+//按钮使用data-toggle="modal" data-target="#tan"
+<input type="button" class="btn btn-info" value="登录/注册" data-toggle="modal" data-target="#tan">
+
+//div使用 id="tan"
+<div class="modal fade" tabindex="-1" role="dialog" id="tan">
