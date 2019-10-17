@@ -1,0 +1,11 @@
+|
+nodemodules
+|
+app.js
+|
+public
+    |
+    css
+    js
+    index.html
+    它们三个必须同一级目录
